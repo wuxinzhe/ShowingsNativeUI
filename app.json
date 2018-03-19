@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/flex/flex",
+    "pages/list/list",
+    "pages/input/input",
+    "pages/modal/modal",
+    "pages/divider/divider",
+    "pages/portrait/portrait",
+    "pages/cascader/cascader",
+    "pages/select/select",
+    "pages/switch/switch",
+    "pages/radio/radio",
+    "pages/slider/slider",
+    "pages/badge/badge"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "ShowingsUI",
+    "navigationBarTextStyle": "white"
+  }
+}

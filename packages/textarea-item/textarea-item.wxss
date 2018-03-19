@@ -1,0 +1,39 @@
+/* plugin/components/textarea-item/textarea-item.wxss */
+@import "./../style/common.wxss";
+
+.textarea-item {
+  position: relative;
+}
+
+.list-size-sm {
+  height: 200rpx;
+}
+
+.list-size-md {
+  height: 250rpx;
+}
+
+.list-size-lg {
+  height: 300rpx;
+}
+
+.textarea-content {
+  padding-right: 30rpx;
+  flex-direction: column;
+}
+
+.input-count {
+  align-self: flex-end;
+  color: #c0c4cc;
+}
+
+.textarea-native {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20rpx 0;
+}
+
+list textarea-item:first-child > .list-field > .list-content::before {
+  display: none;
+}

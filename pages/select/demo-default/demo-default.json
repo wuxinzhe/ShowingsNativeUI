@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list": "../../../packages/list/list",
+    "select-item": "../../../packages/select-item/select-item",
+    "demo": "../../../components/demo/demo"
+  }
+}

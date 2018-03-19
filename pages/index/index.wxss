@@ -1,0 +1,37 @@
+page {
+  background-color: #faf8fe;
+}
+
+.title {
+  font-size: 35rpx;
+  color: #909399;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.sub-title {
+  font-size: 25rpx;
+  color: #909399;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.sub-title::before {
+  content: '';
+  position: absolute;
+  height: 1rpx;
+  width: 50rpx;
+  top: 50%;
+  left: -65rpx;
+  background-color: #909399;
+}
+
+.sub-title::after {
+  content: '';
+  position: absolute;
+  height: 1rpx;
+  width: 50rpx;
+  top: 50%;
+  right: -65rpx;
+  background-color: #909399;
+}

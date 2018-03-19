@@ -1,0 +1,12 @@
+ex-block {
+  height: 80rpx;
+  flex: 1;
+  background-color: #ebebef;
+  text-align: center;
+  line-height: 80rpx;
+  color: #bbb;
+}
+
+ex-block+ex-block {
+  margin-left: 10rpx;
+}

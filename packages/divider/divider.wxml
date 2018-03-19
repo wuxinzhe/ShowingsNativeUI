@@ -1,0 +1,5 @@
+<flex align='center' justify='center'>
+  <view class='divider'>
+    <slot/>
+  </view>
+</flex>

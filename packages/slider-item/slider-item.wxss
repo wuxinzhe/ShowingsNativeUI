@@ -1,0 +1,13 @@
+@import "./../style/common.wxss";
+
+.slider-native {
+  flex: 1;
+}
+
+slider {
+  margin: 0;
+}
+
+list slider-item:first-child > .list-field > .list-content::before {
+  display: none;
+}

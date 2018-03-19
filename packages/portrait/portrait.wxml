@@ -1,0 +1,7 @@
+<view class='portrait size-{{size}}'>
+  <image mode='aspectFill' src='{{src}}' lazy-load='{{lazy}}' bindload='onLoadComplete' wx:if='{{mode === "img"}}' />
+  <view wx:else class='text-portrait' style='background:{{textBgColor}}'>
+    {{text}}
+  </view>
+  <mask start='{{start}}'/>
+</view>

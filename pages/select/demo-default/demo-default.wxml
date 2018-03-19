@@ -1,0 +1,5 @@
+<demo name='{{name}}' des='{{des}}'>
+  <list>
+    <select-item label='单项选择器' options='{{options}}' />
+  </list>
+</demo>

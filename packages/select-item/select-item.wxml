@@ -1,0 +1,16 @@
+<view class='input-item list-field list-size-{{size}}' bindtap='onTap'>
+  <view class="list-content ripple {{disabled?'disabled':''}}">
+    <view class="label" wx:if='{{label}}'>
+      {{label}}
+    </view>
+    <view class='placeholder'>{{selectedOption.label}}</view>
+  </view>
+</view>
+<modal title='{{label}}' visible='{{visible}}' footerOptions='{{modalFooter}}' bind:onTap='modalTap'>
+  <picker-view indicator-style="height: 43px;" class="picker-view" value="{{[selectedIdx]}}" bindchange="onChange">
+    <picker-view-column>
+      <view wx:for="{{options}}" class="picker-view-column" wx:key="{{item.id}}">{{item.label}}
+      </view>
+    </picker-view-column>
+  </picker-view>
+</modal>

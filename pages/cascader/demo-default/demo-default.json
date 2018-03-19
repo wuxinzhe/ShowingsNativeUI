@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list": "../../../packages/list/list",
+    "cascader-item": "../../../packages/cascader-item/cascader-item",
+    "demo": "../../../components/demo/demo"
+  }
+}

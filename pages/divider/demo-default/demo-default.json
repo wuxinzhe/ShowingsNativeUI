@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "flex": "../../../packages/flex/flex",
+    "divider": "../../../packages/divider/divider",
+    "white-space": "../../../packages/white-space/white-space",
+    "demo": "../../../components/demo/demo"
+  }
+}

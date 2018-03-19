@@ -1,0 +1,46 @@
+/* plugin/components/portrait/portrait.wxss */
+
+.portrait {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.portrait > image {
+  height: 100%;
+  width: 100%;
+}
+
+.size-sm {
+  height: 120rpx;
+  width: 120rpx;
+}
+
+.size-md {
+  height: 160rpx;
+  width: 160rpx;
+}
+
+.size-lg {
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.text-portrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+<demo name='{{name}}' des='{{des}}'>
+  <flex align='center' justify='space-around' direction='row'>
+    <badge count='1'>
+      <button size='mini'>消息</button>
+    </badge>
+    <badge count='100'>
+      <button size='mini'>消息</button>
+    </badge>
+    <badge message='new'>
+      <button size='mini'>消息</button>
+    </badge>
+  </flex>
+</demo>

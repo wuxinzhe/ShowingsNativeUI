@@ -1,0 +1,3 @@
+<example-page title='{{title}}' name='{{name}}'>
+  <demo-default></demo-default>
+</example-page>

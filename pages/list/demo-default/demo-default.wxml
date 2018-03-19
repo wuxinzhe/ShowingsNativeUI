@@ -1,0 +1,25 @@
+<demo name='{{name}}' des='{{des}}'>
+  <list title='多功能列表'>
+    <list-item arrow='right'>项目一</list-item>
+    <list-item arrow='down'>项目四</list-item>
+    <list-item extra='附加内容'>项目五</list-item>
+    <list-item extra='尺寸可调'>
+      <icon type="success" size="20" slot='icon' style='margin-right:20rpx' /> 项目六
+    </list-item>
+  </list>
+  <list title='输入表单'>
+    <input-item label='用户名' name='username' value='{{username}}' placeholder='请输入...' />
+    <input-item label='密码' placeholder='请输入...' type='password' clearable name='password' value='{{password}}' />
+    <switch-item checked label='开关' />
+    <slider-item show label='进度条' value='50' />
+    <select-item label='单选器' options='{{options}}' value='1' />
+    <cascader-item label='级联选择' options='{{provinces}}' />
+    <input-item disabled label='输入禁止' name='username' value='{{username}}' />
+  </list>
+  <list title='单选列表'>
+    <radio-item options="{{options}}" value='1' />
+  </list>
+  <list title='多行文本'>
+    <textarea-item name='textarea' maxlength='200' value='{{username}}' placeholder='请输入备注信息...' />
+  </list>
+</demo>

@@ -1,0 +1,33 @@
+.fly-in-up {
+  position: absolute;
+  animation: fly-in-from-up 0.6s ease-out;
+}
+
+.fly-out-up {
+  position: absolute;
+  animation: fly-out-to-up 0.6s ease-in;
+}
+
+@keyframes fly-in-from-up {
+  from {
+    top: -100%;
+    opacity: 0;
+  }
+
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes fly-out-to-up {
+  from {
+    top: 50%;
+    opacity: 1;
+  }
+
+  to {
+    top: -100%;
+    opacity: 0;
+  }
+}

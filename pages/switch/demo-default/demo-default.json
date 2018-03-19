@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list": "../../../packages/list/list",
+    "switch-item": "../../../packages/switch-item/switch-item",
+    "demo": "../../../components/demo/demo"
+  }
+}

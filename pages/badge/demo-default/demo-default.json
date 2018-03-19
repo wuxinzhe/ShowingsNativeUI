@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "flex": "../../../packages/flex/flex",
+    "badge": "../../../packages/badge/badge",
+    "demo": "../../../components/demo/demo"
+  }
+}

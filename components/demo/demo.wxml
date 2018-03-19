@@ -1,0 +1,10 @@
+<view class='demo-container'>
+  <view class='demo-name'>
+    <text>{{name}}</text>
+  </view>
+  <slot/>
+  <view class='demo-description'>
+    <view class='description-title'>Description</view>
+    <view>{{des}}</view>
+  </view>
+</view>

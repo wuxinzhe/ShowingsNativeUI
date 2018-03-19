@@ -1,0 +1,86 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.93",
+	"appid": "wx2e3b2eb8333e5e9f",
+	"projectname": "ShowingsNativeMinUI",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "Divider",
+					"pathName": "pages/divider/divider",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Portrait",
+					"pathName": "pages/portrait/portrait",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Cascader",
+					"pathName": "pages/cascader/cascader",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Select",
+					"pathName": "pages/select/select",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Switch",
+					"pathName": "pages/switch/switch",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Radio",
+					"pathName": "pages/radio/radio",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Slider",
+					"pathName": "pages/slider/slider",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Badge",
+					"pathName": "pages/badge/badge",
+					"query": ""
+				}
+			]
+		}
+	}
+}

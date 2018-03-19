@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "modal": "../../../packages/modal/modal",
+    "wing-blank": "../../../packages/wing-blank/wing-blank",
+    "demo": "../../../components/demo/demo"
+  }
+}

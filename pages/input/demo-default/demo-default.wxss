@@ -1,0 +1,17 @@
+/* pages/input/demo-default/demo-default.wxss */
+
+.btn {
+}
+
+button {
+  display: block;
+  padding: 5rpx 10rpx;
+  font-size: 25rpx;
+  line-height: 1.4;
+  border-radius: 5rpx;
+}
+
+button.btn-sm {
+  font-size: 20rpx;
+  line-height: 1.4;
+}

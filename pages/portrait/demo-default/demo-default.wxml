@@ -1,0 +1,7 @@
+<demo name='{{name}}' des='{{des}}'>
+  <flex direction='row' align='center' justify='space-around'>
+    <portrait size='lg' src='{{logo}}'/>
+    <portrait size='md' src='{{logo}}'/>
+    <portrait src='{{logo}}'/>
+  </flex>
+</demo>

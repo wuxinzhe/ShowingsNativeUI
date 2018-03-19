@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list": "../../../packages/list/list",
+    "radio-item": "../../../packages/radio-item/radio-item",
+    "demo": "../../../components/demo/demo"
+  }
+}

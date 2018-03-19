@@ -1,0 +1,1 @@
+<view class='mask' style='background: radial-gradient(rgba(255,255,255,0) {{transparent}}% ,{{color}} {{main}}%)'></view>

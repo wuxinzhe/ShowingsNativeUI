@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "list": "../../packages/list/list",
+    "flex": "../../packages/flex/flex",
+    "divider": "../../packages/divider/divider",
+    "white-space": "../../packages/white-space/white-space",
+    "portrait": "../../packages/portrait/portrait",
+    "list-item": "../../packages/list/list-item/list-item"
+  }
+}

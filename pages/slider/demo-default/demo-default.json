@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list": "../../../packages/list/list",
+    "slider-item": "../../../packages/slider-item/slider-item",
+    "demo": "../../../components/demo/demo"
+  }
+}

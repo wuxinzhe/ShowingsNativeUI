@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list": "../../../packages/list/list",
+    "cascader-item": "../../../packages/cascader-item/cascader-item",
+    "select-item": "../../../packages/select-item/select-item",
+    "switch-item": "../../../packages/switch-item/switch-item",
+    "slider-item": "../../../packages/slider-item/slider-item",
+    "list-item": "../../../packages/list/list-item/list-item",
+    "radio-item": "../../../packages/radio-item/radio-item",
+    "textarea-item": "../../../packages/textarea-item/textarea-item",
+    "input-item": "../../../packages/input-item/input-item",
+    "ex-block": "../../../components/ex-block/ex-block",
+    "demo": "../../../components/demo/demo"
+  }
+}

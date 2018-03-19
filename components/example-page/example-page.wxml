@@ -1,0 +1,9 @@
+<view class='page-container'>
+  <view class='page-header'>
+    <text class='title'>{{title}}</text>
+  </view>
+  <view class='name'>
+    <text>{{name}}</text>
+  </view>
+  <slot/>
+</view>

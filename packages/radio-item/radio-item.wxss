@@ -1,0 +1,8 @@
+/* plugin/components/radio-item/radio-item.wxss */
+@import "./../style/common.wxss";
+@import "./../animation/shrink.wxss";
+@import "./../animation/ripple.wxss";
+
+list .radio-item:first-child  > .list-content::before {
+  display: none;
+}

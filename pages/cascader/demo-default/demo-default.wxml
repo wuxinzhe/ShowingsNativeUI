@@ -1,0 +1,5 @@
+<demo name='{{name}}' des='{{des}}'>
+  <list>
+     <cascader-item label='级联选择' options='{{provinces}}' />
+  </list>
+</demo>

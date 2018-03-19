@@ -1,0 +1,19 @@
+<demo name='{{name}}' des='{{des}}'>
+  <flex direction='row'>
+    <ex-block/>
+    <ex-block/>
+  </flex>
+  <white-space/>
+  <flex direction='row'>
+    <ex-block/>
+    <ex-block/>
+    <ex-block/>
+  </flex>
+  <white-space/>
+  <flex direction='row'>
+    <ex-block/>
+    <ex-block/>
+    <ex-block/>
+    <ex-block/>
+  </flex>
+</demo>

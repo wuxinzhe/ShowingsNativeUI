@@ -1,0 +1,7 @@
+/* plugin/components/wing-blank/wing-blank.wxss */
+
+.wing-blank {
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  width: 100%;
+}

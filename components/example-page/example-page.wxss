@@ -1,0 +1,28 @@
+/* components/example-page/example-page.wxss */
+
+page {
+  background-color: #faf8fe;
+  padding-bottom: 30rpx;
+}
+
+.page-header {
+  height: 100rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.title {
+  padding: 0 50rpx;
+  border-bottom: 1rpx solid #dcdfe6;
+  font-size: 50rpx;
+  color: #303133;
+}
+
+.name {
+  text-align: center;
+  font-size: 25rpx;
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+  color: #909399;
+}

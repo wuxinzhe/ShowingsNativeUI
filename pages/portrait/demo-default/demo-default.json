@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "flex": "../../../packages/flex/flex",
+    "portrait": "../../../packages/portrait/portrait",
+    "demo": "../../../components/demo/demo"
+  }
+}
