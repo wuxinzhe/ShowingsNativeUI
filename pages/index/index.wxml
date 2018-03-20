@@ -27,6 +27,7 @@
   </sh-list>
   <sh-list title='其他'>
     <sh-list-item arrow='right' data-page='/pages/badge/badge' bind:tap='onTap'>Badge</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/search/search' bind:tap='onTap'>Search</sh-list-item>
     <sh-list-item arrow='right' data-page='/pages/portrait/portrait' bind:tap='onTap'>Portrait</sh-list-item>
     <sh-list-item arrow='right' data-page='/pages/mask/mask' bind:tap='onTap'>Mask</sh-list-item>
   </sh-list>

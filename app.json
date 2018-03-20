@@ -13,7 +13,8 @@
     "pages/radio/radio",
     "pages/slider/slider",
     "pages/badge/badge",
-    "pages/mask/mask"
+    "pages/mask/mask",
+    "pages/search/search"
   ],
   "window": {
     "backgroundColor": "#faf8fe",
