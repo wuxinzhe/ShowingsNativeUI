@@ -1,0 +1,18 @@
+<view class='sh-cascader list-field list-size-{{size}}' bindtap='onTap'>
+  <view class="list-content ripple {{disabled?'disabled':''}}">
+    <view class="label" wx:if='{{label}}'>
+      {{label}}
+    </view>
+    <view class='placeholder' wx:for='{{selectedLabels}}' wx:key='*this'>
+      {{item}}
+    </view>
+  </view>
+</view>
+<sh-modal title='{{label}}' visible='{{visible}}' footerOptions='{{modalFooter}}' bind:onTap='modalTap'>
+  <picker-view indicator-style="height: 43px;" class="picker-view" value="{{selectedArray}}" bindchange="onChange">
+    <picker-view-column wx:for='{{pickerColumns}}' wx:for-item="column" wx:for-index="idx" wx:key='{{idx}}'>
+      <view wx:for="{{column}}" class="picker-view-column" wx:key="{{item.id}}">{{item.label}}
+      </view>
+    </picker-view-column>
+  </picker-view>
+</sh-modal>

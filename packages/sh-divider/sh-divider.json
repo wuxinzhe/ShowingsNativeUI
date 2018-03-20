@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sh-flex":"../sh-flex/sh-flex"
+  }
+}

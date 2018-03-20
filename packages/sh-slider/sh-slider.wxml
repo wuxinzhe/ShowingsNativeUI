@@ -1,0 +1,8 @@
+<view class='sh-slider list-field list-size-{{size}}'>
+  <view class='list-content'>
+    <view class="label" wx:if='{{label}}'>
+      {{label}}
+    </view>
+    <slider value="{{value}}" bindchange="onChange" block-size="{{blockSize}}" step="{{step}}" show-value="{{show}}" class='slider-native' />
+  </view>
+</view>

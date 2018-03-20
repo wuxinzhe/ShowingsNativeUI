@@ -1,0 +1,6 @@
+<view class='textarea-item list-field list-size-{{size}}'>
+  <view class='textarea-content list-content'>
+    <textarea class='textarea-native' maxlength='{{maxlength}}' value='{{value}}' placeholder='{{placeholder}}' bindinput='onInput' disabled='{{disabled}}' />
+    <view wx:if='{{maxlength>0}}' class='input-count'>{{count}}/{{maxlength}}</view>
+  </view>
+</view>

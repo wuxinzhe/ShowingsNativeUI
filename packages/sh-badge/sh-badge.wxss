@@ -1,0 +1,23 @@
+/* packages/badge/badge.wxss */
+.sh-badge {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sh-badge-message {
+  position: absolute;
+  top: 0;
+  right: 20rpx;
+  font-size: 24rpx;
+  height: 36rpx;
+  display: inline-block;
+  line-height: 36rpx;
+  text-align: center;
+  background-color: #f56c6c;
+  border-radius: 20rpx;
+  z-index: 10;
+  color: #fff;
+  padding: 0 13rpx;
+  transform: translateY(-50%) translateX(100%);
+}

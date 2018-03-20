@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sh-modal": "../sh-modal/sh-modal"
+  }
+}

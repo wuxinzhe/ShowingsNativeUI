@@ -1,0 +1,4 @@
+<!--plugin/components/wing-blank/wing-blank.wxml-->
+<view class='sh-wing-blank'>
+  <slot/>
+</view>

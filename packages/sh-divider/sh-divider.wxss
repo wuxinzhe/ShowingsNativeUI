@@ -1,0 +1,27 @@
+/* packages/divider/divider.wxss */
+
+.sh-divider {
+  position: relative;
+  font-size: 25rpx;
+  color: #c0c4cc;
+}
+
+.sh-divider::before {
+  content: '';
+  position: absolute;
+  height: 1rpx;
+  width: 50rpx;
+  top: 50%;
+  left: -65rpx;
+  background-color: #c0c4cc;
+}
+
+.sh-divider::after {
+  content: '';
+  position: absolute;
+  height: 1rpx;
+  width: 50rpx;
+  top: 50%;
+  right: -65rpx;
+  background-color: #c0c4cc;
+}

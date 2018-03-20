@@ -1,0 +1,23 @@
+/* plugin/components/input/input.wxss */
+@import "./../style/common.wxss";
+@import "./../animation/ripple.wxss";
+
+.input-feild {
+  flex: 1;
+}
+
+.input-feild.sm {
+  font-size: 30rpx;
+}
+
+.input-feild.md {
+  font-size: 40rpx;
+}
+
+.input-feild.lg {
+  font-size: 50rpx;
+}
+
+sh-list sh-input:first-child > .list-field > .list-content::before {
+  display: none;
+}

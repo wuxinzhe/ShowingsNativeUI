@@ -1,0 +1,3 @@
+<view class='sh-flex' style="{{style}}">
+  <slot/>
+</view>

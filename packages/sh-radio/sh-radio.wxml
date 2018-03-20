@@ -1,0 +1,6 @@
+<view class='sh-radio list-field list-size-{{size}} ' wx:for="{{options}}" wx:for-item="option" bindtap='onChange' data-id='{{option.id}}' wx:key='{{option.id}}'>
+  <view class='list-content ripple'>
+    {{option.label}}
+    <icon type="success" size="20" slot='icon' class="shrink {{value!=option.id?'disappear':''}}" />
+  </view>
+</view>

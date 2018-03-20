@@ -1,0 +1,5 @@
+<sh-flex align='center' justify='center'>
+  <view class='sh-divider'>
+    <slot/>
+  </view>
+</sh-flex>

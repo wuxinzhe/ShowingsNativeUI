@@ -1,0 +1,15 @@
+<view wx:if='{{visible}}' class='sh-modal'>
+  <view class="modal-container  {{modalVisible?'fly-in-up':'fly-out-up'}}">
+    <view class='modal-title'>{{title}}</view>
+    <view class='modal-body'>
+      {{message}}
+      <slot/>
+    </view>
+    <view class='modal-footer' bindtap='onTap'>
+      <view class='modal-footer-btn' style='color:{{footer.color}}' wx:for='{{footerOptions}}' wx:for-item="footer" wx:for-index="idx" wx:key='$this' data-idx='{{idx}}'>
+        {{footer.label}}
+      </view>
+    </view>
+  </view>
+  <view class='backdrop' style='opacity:{{opacity}}' bindtap='onClose'></view>
+</view>

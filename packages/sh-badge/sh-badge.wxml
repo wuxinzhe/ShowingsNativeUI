@@ -1,0 +1,4 @@
+<view class='sh-badge'>
+  <view class='sh-badge-message'>{{text}}</view>
+  <slot/>
+</view>

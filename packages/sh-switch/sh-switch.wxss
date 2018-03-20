@@ -1,0 +1,10 @@
+/* plugin/components/switch-item/switch-item.wxss */
+@import "./../style/common.wxss";
+
+switch {
+  margin-right: -10rpx;
+}
+
+sh-list sh-switch:first-child > .list-field > .list-content::before {
+  display: none;
+}
