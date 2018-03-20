@@ -1,7 +1,9 @@
 /* components/example-page/example-page.wxss */
 
-page {
-  padding-bottom: 30rpx;
+
+
+.page-container {
+  background-color: #faf8fe;
 }
 
 .page-header {
