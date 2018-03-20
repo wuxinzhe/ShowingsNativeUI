@@ -1,4 +1,0 @@
-<view class='badge'>
-  <view class='badge-message'>{{text}}</view>
-  <slot/>
-</view>

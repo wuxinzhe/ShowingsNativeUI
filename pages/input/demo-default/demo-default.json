@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../../../packages/list/list",
-    "input-item": "../../../packages/input-item/input-item",
+    "sh-list": "../../../packages/sh-list/sh-list",
+    "sh-input": "../../../packages/sh-input/sh-input",
     "ex-block": "../../../components/ex-block/ex-block",
     "demo": "../../../components/demo/demo"
   }

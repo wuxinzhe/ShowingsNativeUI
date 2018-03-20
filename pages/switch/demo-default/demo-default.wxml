@@ -1,5 +1,5 @@
 <demo name='{{name}}' des='{{des}}'>
-  <list>
-     <switch-item checked label='是否打开' />
-  </list>
+  <sh-list>
+     <sh-switch checked label='是否打开' />
+  </sh-list>
 </demo>

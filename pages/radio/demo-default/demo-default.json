@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../../../packages/list/list",
-    "radio-item": "../../../packages/radio-item/radio-item",
+    "sh-list": "../../../packages/sh-list/sh-list",
+    "sh-radio": "../../../packages/sh-radio/sh-radio",
     "demo": "../../../components/demo/demo"
   }
 }

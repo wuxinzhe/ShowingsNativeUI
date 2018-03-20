@@ -1,5 +1,5 @@
 <demo name='{{name}}' des='{{des}}'>
-  <list>
-     <cascader-item label='级联选择' options='{{provinces}}' />
-  </list>
+  <sh-list>
+     <sh-cascader label='级联选择' options='{{provinces}}' />
+  </sh-list>
 </demo>

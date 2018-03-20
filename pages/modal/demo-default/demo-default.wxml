@@ -1,6 +1,6 @@
 <demo name='{{name}}' des='{{des}}'>
   <wing-blank>
     <button bindtap='onTap'>提示窗口</button>
-    <modal title='提示信息' message='你真的确定要这么做么？？' visible='{{visible}}' footerOptions='{{modalFooter}}' bind:onTap='modalTap'/>
+    <sh-modal title='提示信息' message='你真的确定要这么做么？？' visible='{{visible}}' footerOptions='{{modalFooter}}' bind:onTap='modalTap'/>
   </wing-blank>
 </demo>

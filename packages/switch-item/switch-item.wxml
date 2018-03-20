@@ -1,8 +1,0 @@
-<view class='switch-item list-field list-size-{{size}}'>
-  <view class='list-content'>
-    <view class="label" wx:if='{{label}}'>
-      {{label}}
-    </view>
-    <switch type='{{type}}' checked="{{checked}}" color="{{color}}" bindchange="onChange" class='switch-native' />
-  </view>
-</view>

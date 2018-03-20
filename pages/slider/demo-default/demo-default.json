@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../../../packages/list/list",
-    "slider-item": "../../../packages/slider-item/slider-item",
+    "sh-list": "../../../packages/sh-list/sh-list",
+    "sh-slider": "../../../packages/sh-slider/sh-slider",
     "demo": "../../../components/demo/demo"
   }
 }

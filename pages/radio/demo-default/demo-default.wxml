@@ -1,5 +1,5 @@
 <demo name='{{name}}' des='{{des}}'>
-  <list>
-    <radio-item value='1' label='单项选择' options='{{options}}' />
-  </list>
+  <sh-list>
+    <sh-radio value='1' label='单项选择' options='{{options}}' />
+  </sh-list>
 </demo>

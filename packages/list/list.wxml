@@ -1,9 +1,0 @@
-<view class='list'>
-  <view class='title {{size}}'>
-    {{title}}
-    <slot name='title'/>
-  </view>
-  <view class='content'>
-    <slot/>
-  </view>
-</view>

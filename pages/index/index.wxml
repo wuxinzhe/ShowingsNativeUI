@@ -1,34 +1,34 @@
 <view>
-  <white-space size='lg' />
-  <flex align='center' justify='center'>
-    <portrait src='{{logo}}' size='lg' />
+  <sh-white-space size='lg' />
+  <sh-flex align='center' justify='center'>
+    <sh-portrait src='{{logo}}' size='lg' />
     <view class='title'>Showings - Native</view>
-    <divider>拼出你的小程序</divider>
-  </flex>
-  <white-space size='md' />
-  <list title='项目地址'>
-    <list-item arrow='right' data-page='/pages/github/github' bind:tap='onClip'>Github</list-item>
-  </list>
-  <list title='表单控件'>
-    <list-item arrow='right' data-page='/pages/input/input' bind:tap='onTap'>Input</list-item>
-    <list-item arrow='right' data-page='/pages/cascader/cascader' bind:tap='onTap'>Cascader</list-item>
-    <list-item arrow='right' data-page='/pages/select/select' bind:tap='onTap'>Select</list-item>
-    <list-item arrow='right' data-page='/pages/switch/switch' bind:tap='onTap'>Switch</list-item>
-    <list-item arrow='right' data-page='/pages/radio/radio' bind:tap='onTap'>Radio</list-item>
-    <list-item arrow='right' data-page='/pages/slider/slider' bind:tap='onTap'>Slider</list-item>
-  </list>
-  <list title='布局组件'>
-    <list-item arrow='right' data-page='/pages/flex/flex' bind:tap='onTap'>Flex</list-item>
-    <list-item arrow='right' data-page='/pages/list/list' bind:tap='onTap'>List</list-item>
-    <list-item arrow='right' data-page='/pages/divider/divider' bind:tap='onTap'>Divider</list-item>
-  </list>
-  <list title='交互'>
-    <list-item arrow='right' data-page='/pages/modal/modal' bind:tap='onTap'>Modal</list-item>
-  </list>
-  <list title='其他'>
-    <list-item arrow='right' data-page='/pages/badge/badge' bind:tap='onTap'>Badge</list-item>
-    <list-item arrow='right' data-page='/pages/portrait/portrait' bind:tap='onTap'>Portrait</list-item>
-    <list-item arrow='right' data-page='/pages/mask/mask' bind:tap='onTap'>Mask</list-item>
-  </list>
-  <white-space size='lg' />
+    <sh-divider>拼出你的小程序</sh-divider>
+  </sh-flex>
+  <sh-white-space size='md' />
+  <sh-list title='项目地址'>
+    <sh-list-item arrow='right' data-page='/pages/github/github' bind:tap='onClip'>Github</sh-list-item>
+  </sh-list>
+  <sh-list title='表单控件'>
+    <sh-list-item arrow='right' data-page='/pages/input/input' bind:tap='onTap'>Input</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/cascader/cascader' bind:tap='onTap'>Cascader</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/select/select' bind:tap='onTap'>Select</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/switch/switch' bind:tap='onTap'>Switch</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/radio/radio' bind:tap='onTap'>Radio</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/slider/slider' bind:tap='onTap'>Slider</sh-list-item>
+  </sh-list>
+  <sh-list title='布局组件'>
+    <sh-list-item arrow='right' data-page='/pages/flex/flex' bind:tap='onTap'>Flex</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/list/list' bind:tap='onTap'>List</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/divider/divider' bind:tap='onTap'>Divider</sh-list-item>
+  </sh-list>
+  <sh-list title='交互'>
+    <sh-list-item arrow='right' data-page='/pages/modal/modal' bind:tap='onTap'>Modal</sh-list-item>
+  </sh-list>
+  <sh-list title='其他'>
+    <sh-list-item arrow='right' data-page='/pages/badge/badge' bind:tap='onTap'>Badge</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/portrait/portrait' bind:tap='onTap'>Portrait</sh-list-item>
+    <sh-list-item arrow='right' data-page='/pages/mask/mask' bind:tap='onTap'>Mask</sh-list-item>
+  </sh-list>
+  <sh-white-space size='lg' />
 </view>

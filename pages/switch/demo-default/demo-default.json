@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../../../packages/list/list",
-    "switch-item": "../../../packages/switch-item/switch-item",
+    "sh-list": "../../../packages/sh-list/sh-list",
+    "sh-switch": "../../../packages/sh-switch/sh-switch",
     "demo": "../../../components/demo/demo"
   }
 }

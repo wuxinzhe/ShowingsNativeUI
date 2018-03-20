@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../../../packages/list/list",
-    "select-item": "../../../packages/select-item/select-item",
+    "sh-list": "../../../packages/sh-list/sh-list",
+    "sh-select": "../../../packages/sh-select/sh-select",
     "demo": "../../../components/demo/demo"
   }
 }

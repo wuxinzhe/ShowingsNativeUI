@@ -1,5 +1,5 @@
 <demo name='{{name}}' des='{{des}}'>
-  <list>
-    <slider-item label='进度选择' show value='50' />
-  </list>
+  <sh-list>
+    <sh-slider label='进度选择' show value='50' />
+  </sh-list>
 </demo>

@@ -1,9 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "flex": "../../../packages/flex/flex",
-    "wing-blank": "../../../packages/wing-blank/wing-blank",
-    "white-space": "../../../packages/white-space/white-space",
+    "sh-flex": "../../../packages/sh-flex/sh-flex",
+    "sh-white-space": "../../../packages/sh-white-space/sh-white-space",
     "ex-block": "../../../components/ex-block/ex-block",
     "demo": "../../../components/demo/demo"
   }

@@ -1,15 +1,15 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../../../packages/list/list",
-    "cascader-item": "../../../packages/cascader-item/cascader-item",
-    "select-item": "../../../packages/select-item/select-item",
-    "switch-item": "../../../packages/switch-item/switch-item",
-    "slider-item": "../../../packages/slider-item/slider-item",
-    "list-item": "../../../packages/list/list-item/list-item",
-    "radio-item": "../../../packages/radio-item/radio-item",
-    "textarea-item": "../../../packages/textarea-item/textarea-item",
-    "input-item": "../../../packages/input-item/input-item",
+    "sh-list": "../../../packages/sh-list/sh-list",
+    "sh-cascader": "../../../packages/sh-cascader/sh-cascader",
+    "sh-select": "../../../packages/sh-select/sh-select",
+    "sh-switch": "../../../packages/sh-switch/sh-switch",
+    "sh-slider": "../../../packages/sh-slider/sh-slider",
+    "sh-list-item": "../../../packages/sh-list/sh-list-item/sh-list-item",
+    "sh-radio": "../../../packages/sh-radio/sh-radio",
+    "sh-textarea": "../../../packages/sh-textarea/sh-textarea",
+    "sh-input": "../../../packages/sh-input/sh-input",
     "ex-block": "../../../components/ex-block/ex-block",
     "demo": "../../../components/demo/demo"
   }

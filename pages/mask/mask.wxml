@@ -1,3 +1,3 @@
-<mask start='{{start}}' mode='linear' color='#ddd'></mask>
+<mask start='{{start}}' mode='linear' color='#eee'></mask>
 <example-page title='{{title}}' name='{{name}}'>
 </example-page>

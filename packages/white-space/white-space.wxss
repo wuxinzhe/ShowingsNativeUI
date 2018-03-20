@@ -1,5 +1,0 @@
-/* plugin/components/white-space/white-space.wxss */
-
-.white-space {
-  width: 100%;
-}

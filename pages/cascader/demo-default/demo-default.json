@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "list": "../../../packages/list/list",
-    "cascader-item": "../../../packages/cascader-item/cascader-item",
+    "sh-list": "../../../packages/sh-list/sh-list",
+    "sh-cascader": "../../../packages/sh-cascader/sh-cascader",
     "demo": "../../../components/demo/demo"
   }
 }

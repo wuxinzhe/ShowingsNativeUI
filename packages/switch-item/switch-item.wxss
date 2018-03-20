@@ -1,6 +1,0 @@
-/* plugin/components/switch-item/switch-item.wxss */
-@import "./../style/common.wxss";
-
-list switch-item:first-child > .list-field > .list-content::before {
-  display: none;
-}

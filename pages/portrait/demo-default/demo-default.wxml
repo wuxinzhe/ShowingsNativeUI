@@ -1,7 +1,7 @@
 <demo name='{{name}}' des='{{des}}'>
-  <flex direction='row' align='center' justify='space-around'>
-    <portrait size='lg' src='{{logo}}'/>
-    <portrait size='md' src='{{logo}}'/>
-    <portrait src='{{logo}}'/>
-  </flex>
+  <sh-flex direction='row' align='center' justify='space-around'>
+    <sh-portrait size='lg' src='{{logo}}'/>
+    <sh-portrait size='md' src='{{logo}}'/>
+    <sh-portrait src='{{logo}}'/>
+  </sh-flex>
 </demo>

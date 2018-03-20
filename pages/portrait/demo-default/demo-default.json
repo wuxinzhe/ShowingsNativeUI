@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "flex": "../../../packages/flex/flex",
-    "portrait": "../../../packages/portrait/portrait",
+    "sh-flex": "../../../packages/sh-flex/sh-flex",
+    "sh-portrait": "../../../packages/sh-portrait/sh-portrait",
     "demo": "../../../components/demo/demo"
   }
 }

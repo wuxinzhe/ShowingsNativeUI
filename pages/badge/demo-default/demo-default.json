@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "flex": "../../../packages/flex/flex",
-    "badge": "../../../packages/badge/badge",
+    "sh-flex": "../../../packages/sh-flex/sh-flex",
+    "sh-badge": "../../../packages/sh-badge/sh-badge",
     "demo": "../../../components/demo/demo"
   }
 }

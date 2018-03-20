@@ -1,8 +1,8 @@
 {
   "component": true,
   "usingComponents": {
-    "modal": "../../../packages/modal/modal",
-    "wing-blank": "../../../packages/wing-blank/wing-blank",
+    "sh-modal": "../../../packages/sh-modal/sh-modal",
+    "sh-wing-blank": "../../../packages/sh-wing-blank/sh-wing-blank",
     "demo": "../../../components/demo/demo"
   }
 }

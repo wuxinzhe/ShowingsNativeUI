@@ -1,7 +1,3 @@
-/* components/example-page/example-page.wxss */
-
-
-
 .page-container {
   background-color: #faf8fe;
 }

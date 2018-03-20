@@ -1,9 +1,9 @@
 <demo name='{{name}}' des='{{des}}'>
-  <list>
-    <input-item size='sm' placeholder='请输入用户名..'  label='用户名' name='username' value='{{username}}'></input-item>
-    <input-item size='sm' placeholder='请输入密码..'  label='密码' type='password' clearable name='password' value='{{password}}'></input-item>
-    <input-item size='sm' placeholder='请输入验证码..'  label='验证码' name='code'>
+  <sh-list>
+    <sh-input size='sm' placeholder='请输入用户名..' label='用户名' name='username' value='{{username}}' />
+    <sh-input size='sm' placeholder='请输入密码..' label='密码' type='password' clearable name='password' value='{{password}}' />
+    <sh-input size='sm' placeholder='请输入验证码..' label='验证码' name='code'>
       <button size='small' class='btn btn-small'>发送短信</button>
-    </input-item>
-  </list>
+    </sh-input>
+  </sh-list>
 </demo>

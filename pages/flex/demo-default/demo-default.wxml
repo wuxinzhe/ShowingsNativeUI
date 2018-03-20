@@ -1,19 +1,19 @@
 <demo name='{{name}}' des='{{des}}'>
-  <flex direction='row'>
+  <sh-flex direction='row'>
     <ex-block/>
     <ex-block/>
-  </flex>
-  <white-space/>
-  <flex direction='row'>
-    <ex-block/>
-    <ex-block/>
-    <ex-block/>
-  </flex>
-  <white-space/>
-  <flex direction='row'>
+  </sh-flex>
+  <sh-white-space/>
+  <sh-flex direction='row'>
     <ex-block/>
     <ex-block/>
     <ex-block/>
+  </sh-flex>
+  <sh-white-space/>
+  <sh-flex direction='row'>
     <ex-block/>
-  </flex>
+    <ex-block/>
+    <ex-block/>
+    <ex-block/>
+  </sh-flex>
 </demo>
