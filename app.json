@@ -16,6 +16,7 @@
     "pages/mask/mask"
   ],
   "window": {
+    "backgroundColor": "#faf8fe",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#faf8fe",
     "navigationBarTitleText": "ShowingsUI",

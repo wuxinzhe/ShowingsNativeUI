@@ -6,6 +6,9 @@
     <divider>拼出你的小程序</divider>
   </flex>
   <white-space size='md' />
+  <list title='项目地址'>
+    <list-item arrow='right' data-page='/pages/github/github' bind:tap='onClip'>Github</list-item>
+  </list>
   <list title='表单控件'>
     <list-item arrow='right' data-page='/pages/input/input' bind:tap='onTap'>Input</list-item>
     <list-item arrow='right' data-page='/pages/cascader/cascader' bind:tap='onTap'>Cascader</list-item>
