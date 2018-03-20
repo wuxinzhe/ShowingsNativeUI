@@ -6,7 +6,10 @@ Page({
     name: '分割线'
   },
 
-  onShareAppMessage: function () {
 
-  }
+  onShareAppMessage: () => ({
+    title: 'Showings UI · Badge',
+    path: '/pages/badge/badge',
+    imageUrl: '../showings_share.png'
+  })
 })

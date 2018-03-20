@@ -5,8 +5,9 @@ Page({
     title: 'Divider',
     name: '分割线'
   },
-
-  onShareAppMessage: function () {
-
-  }
+  onShareAppMessage: () => ({
+    title: 'Showings UI · Divider',
+    path: '/pages/divider/divider',
+    imageUrl: '../showings_share.png'
+  })
 })

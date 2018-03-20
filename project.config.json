@@ -79,6 +79,12 @@
 					"name": "Badge",
 					"pathName": "pages/badge/badge",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Mask",
+					"pathName": "pages/mask/mask",
+					"query": ""
 				}
 			]
 		}

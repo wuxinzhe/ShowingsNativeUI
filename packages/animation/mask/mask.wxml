@@ -1,1 +1,2 @@
-<view class='mask' style='background: radial-gradient(rgba(255,255,255,0) {{transparent}}% ,{{color}} {{main}}%)'></view>
+<view class='mask' wx:if='{{visible}}' style='background: {{mode}}-gradient(rgba(255,255,255,0) {{transparent}}% ,{{color}} {{main}}%)'>
+</view>

@@ -12,12 +12,13 @@
     "pages/switch/switch",
     "pages/radio/radio",
     "pages/slider/slider",
-    "pages/badge/badge"
+    "pages/badge/badge",
+    "pages/mask/mask"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
+    "navigationBarBackgroundColor": "#faf8fe",
     "navigationBarTitleText": "ShowingsUI",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   }
 }

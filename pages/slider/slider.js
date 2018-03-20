@@ -3,7 +3,9 @@ Page({
     title: 'Slider',
     name: '进度条'
   },
-  onShareAppMessage: function () {
-
-  }
+  onShareAppMessage: () => ({
+    title: 'Showings UI · Slider',
+    path: '/pages/slider/slider',
+    imageUrl: '../showings_share.png'
+  })
 })

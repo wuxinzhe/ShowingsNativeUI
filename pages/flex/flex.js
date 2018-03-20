@@ -8,7 +8,9 @@ Page({
     title: 'Flex',
     name: '弹性布局'
   },
-  onShareAppMessage() {
-
-  }
+  onShareAppMessage: () => ({
+    title: 'Showings UI · Flex',
+    path: '/pages/flex/flex',
+    imageUrl: '../showings_share.png'
+  })
 })

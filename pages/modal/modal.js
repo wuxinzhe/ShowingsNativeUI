@@ -8,11 +8,9 @@ Page({
     title: 'Modal',
     name: '提示窗口'
   },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+  onShareAppMessage: () => ({
+    title: 'Showings UI · Modal',
+    path: '/pages/modal/modal',
+    imageUrl: '../showings_share.png'
+  })
 })

@@ -25,6 +25,7 @@
   <list title='其他'>
     <list-item arrow='right' data-page='/pages/badge/badge' bind:tap='onTap'>Badge</list-item>
     <list-item arrow='right' data-page='/pages/portrait/portrait' bind:tap='onTap'>Portrait</list-item>
+    <list-item arrow='right' data-page='/pages/mask/mask' bind:tap='onTap'>Mask</list-item>
   </list>
   <white-space size='lg' />
 </view>

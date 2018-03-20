@@ -9,10 +9,9 @@ Page({
     name: '文本输入'
   },
 
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+  onShareAppMessage: () => ({
+    title: 'Showings UI · Input',
+    path: '/pages/input/input',
+    imageUrl: '../showings_share.png'
+  })
 })

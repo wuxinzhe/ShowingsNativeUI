@@ -5,5 +5,5 @@ mask, .mask {
 }
 
 mask {
-  background-color: transparent;
+   background-color: transparent; 
 }
