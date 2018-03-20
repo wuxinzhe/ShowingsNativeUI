@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "example-page": "../../components/example-page/example-page",
+    "mask": "../../packages/animation/mask/mask"
+  }
+}
