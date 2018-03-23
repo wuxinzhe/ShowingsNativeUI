@@ -40,44 +40,7 @@ Component({
   },
 
   attached() {
-    let defaultOption = { id: -1, label: '请选择' }
-    if (this.data.options === null) {
-      this.setData({
-        options: [defaultOption]
-      })
-    } else {
-      let temp = [...this.data.options]
-      temp.unshift(defaultOption)
-      this.setData({
-        options: temp
-      })
-    }
-    let value = this.data.value
-    if (value === null) {
-      this.setData({
-        selectedOption: { id: -1, label: '请选择' }
-      })
-    } else {
-      let selectedIdx
-      let selectedOptions = this.data.options.filter((option, idx) => {
-        if (option.id === value) {
-          selectedIdx = idx
-        }
-        return option.id === value
-      })
-      if (selectedOptions.length > 0) {
-        let [selectedOption] = selectedOptions
-        this.setData({
-          selectedOption,
-          selectedIdx,
-          selectedIdxInit: selectedIdx
-        })
-      } else {
-        this.setData({
-          selectedOption: { id: -1, label: '请选择' }
-        })
-      }
-    }
+    
   },
 
   methods: {
@@ -89,6 +52,44 @@ Component({
         visible: true,
         selectedIdx: this.data.selectedIdxInit
       })
+      let defaultOption = { id: -1, label: '请选择' }
+      if (this.data.options === null) {
+        this.setData({
+          options: [defaultOption]
+        })
+      } else {
+        let temp = [...this.data.options]
+        temp.unshift(defaultOption)
+        this.setData({
+          options: temp
+        })
+      }
+      let value = this.data.value
+      if (value === null) {
+        this.setData({
+          selectedOption: { id: -1, label: '请选择' }
+        })
+      } else {
+        let selectedIdx
+        let selectedOptions = this.data.options.filter((option, idx) => {
+          if (option.id === value) {
+            selectedIdx = idx
+          }
+          return option.id === value
+        })
+        if (selectedOptions.length > 0) {
+          let [selectedOption] = selectedOptions
+          this.setData({
+            selectedOption,
+            selectedIdx,
+            selectedIdxInit: selectedIdx
+          })
+        } else {
+          this.setData({
+            selectedOption: { id: -1, label: '请选择' }
+          })
+        }
+      }
     },
     modalTap({ detail: { idx } }) {
       switch (idx) {

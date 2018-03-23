@@ -42,50 +42,6 @@ Component({
     selectedLabels: ['请选择']
   },
 
-
-  attached() {
-    //检查数据有效性
-    if (this.data.options === null || !this.data.options.length) {
-      throw new TypeError('请设置正确的备选项目')
-    }
-    let defaultOption = { id: -1, label: '请选择', children: [] }
-    let pickerColumns = []
-    //判断是否需要预设值
-    if (this.data.value !== null && this.data.value.length) {
-      let selectedArray = []
-      let selectedLabels = []
-      function loop(options, valueArray) {
-        if (valueArray.length) {
-          options.unshift(defaultOption)
-          let value = valueArray.shift()
-          let column = options.map(({ id, label }) => {
-            return { id, label }
-          })
-          pickerColumns.push(column)
-          let temp = options.filter(({ id, label }, idx) => {
-            if (value === id) {
-              selectedArray.push(idx)
-              selectedLabels.push(label)
-            }
-            return value === id
-          })[0]
-          if (temp.children) {
-            loop([...temp.children], valueArray)
-          }
-        }
-      }
-      loop([...this.data.options], this.data.value)
-      this.setData({ pickerColumns, selectedArray, selectedLabels })
-    } else {
-      let column = this.data.options.map(({ id, label }, idx) => {
-        return { id, label }
-      })
-      column.unshift(defaultOption)
-      pickerColumns.push(column)
-      this.setData({ pickerColumns })
-    }
-  },
-
   /**
    * 组件的方法列表
    */
@@ -97,6 +53,46 @@ Component({
       this.setData({
         visible: true,
       })
+      //检查数据有效性
+      if (this.data.options === null || !this.data.options.length) {
+        throw new TypeError('请设置正确的备选项目')
+      }
+      let defaultOption = { id: -1, label: '请选择', children: [] }
+      let pickerColumns = []
+      //判断是否需要预设值
+      if (this.data.value !== null && this.data.value.length) {
+        let selectedArray = []
+        let selectedLabels = []
+        function loop(options, valueArray) {
+          if (valueArray.length) {
+            options.unshift(defaultOption)
+            let value = valueArray.shift()
+            let column = options.map(({ id, label }) => {
+              return { id, label }
+            })
+            pickerColumns.push(column)
+            let temp = options.filter(({ id, label }, idx) => {
+              if (value === id) {
+                selectedArray.push(idx)
+                selectedLabels.push(label)
+              }
+              return value === id
+            })[0]
+            if (temp.children) {
+              loop([...temp.children], valueArray)
+            }
+          }
+        }
+        loop([...this.data.options], this.data.value)
+        this.setData({ pickerColumns, selectedArray, selectedLabels })
+      } else {
+        let column = this.data.options.map(({ id, label }, idx) => {
+          return { id, label }
+        })
+        column.unshift(defaultOption)
+        pickerColumns.push(column)
+        this.setData({ pickerColumns })
+      }
     },
     onChange({ detail: { value } }) {
       let defaultOption = { id: -1, label: '请选择', children: [] }
